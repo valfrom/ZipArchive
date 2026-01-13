@@ -6,8 +6,8 @@
 //
 
 #import "SSZipArchive.h"
-#include "minizip/mz_compat.h"
-#include "minizip/mz_zip.h"
+#include "include/mz_compat.h"
+#include "include/mz_zip.h"
 #include "minizip/mz_os.h"
 #include <zlib.h>
 #include <sys/stat.h>
