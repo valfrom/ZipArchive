@@ -20,6 +20,16 @@ FOUNDATION_EXPORT const unsigned char ZipArchiveVersionString[];
 #import <SSZipArchive/SSZipArchive.h>
 #elif __has_include("../SSZipArchive.h")
 #import "../SSZipArchive.h"
+#include "mz_compat.h"
+#include "mz_zip.h"
+#include "mz_strm.h"
+#include "mz_zip_rw.h"
+#include "mz_crypt.h"
 #else
 #import "SSZipArchive.h"
+#include "mz_compat.h"
+#include "mz_zip.h"
+#include "mz_strm.h"
+#include "mz_zip_rw.h"
+#include "mz_crypt.h"
 #endif
