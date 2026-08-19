@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ZipArchive",
     platforms: [
-        .iOS("15.5"),
+        .iOS("17.0"),
         .tvOS("15.4"),
         .macOS(.v10_15),
         .visionOS("1.0"),
