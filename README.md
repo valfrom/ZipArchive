@@ -36,7 +36,7 @@ Konwn popular alternatives to ZipArchive:
 
 ZipArchive works on:
 - Xcode 12 and above
-- iOS 15.5 and above
+- iOS 17.0 and above
 - macOS 10.15 and above
 - tvOS 15.4 and above
 - visionOS 1.0 and above
@@ -47,7 +47,7 @@ In your Podfile:
 `pod 'SSZipArchive'`
 
 You should define your minimum deployment target explicitly, like:
-`platform :ios, '15.5'`
+`platform :ios, '17.0'`
 
 Recommended CocoaPods version should be at least CocoaPods 1.7.5.
 
